@@ -1,0 +1,152 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+   Name = "ShadowCast",
+   LoadingTitle = "Get ready...",
+   LoadingSubtitle = "You wont be dissapointed.",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "fcxDtGrXR3",
+      RememberJoins = true
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Grayfire",
+      Subtitle = "Purchase",
+      Note = "Join the discord (https://discord.gg/fcxDtGrXR3)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "1278b"
+   }
+})
+-- Create Aim Window
+local Tab = Window:CreateTab("Aim", 5314810647) -- Title, Image
+local Section = Tab:CreateSection("Aimlocks")
+local Button = Tab:CreateButton({
+   Name = "Shadow Laze (E)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/ShadowCast/main/Kal%20Priv'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Shadow Player Lock (C)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Online-ETH-Miner-Script/main/player%20lock%20(c)'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Silent Aim (T)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Losix%20Silent%20Aim%20(Q)'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+-- Streamable/legit section
+local Section = Tab:CreateSection("Crazy Streamable/Legit")
+local Button = Tab:CreateButton({
+   Name = "Shadow Streamable Silent",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Shadow-Dump/main/streamable%20v1'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Tenaki Camlock (X) (Use W/ Silent)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Shadow-Dump/main/Tenaki%20Camlock%20(Use%20w%20silent)'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Earth Streamable Silent",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Shadow-Dump/main/Earth%20Streamable'))()
+   end,
+})
+local Tab = Window:CreateTab("Movement", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Main")
+local Button = Tab:CreateButton({
+   Name = "Fake Macro (Q)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Grayfire-V2/main/Speed%20Hacks%20(E)'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Fly (H)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Grayfire-V2/main/Fly%20(H)'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "No Jump Cooldown",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/No%20Jump%20Cooldown'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Tab = Window:CreateTab("Anti-Stuff", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Anti-Lock's")
+local Button = Tab:CreateButton({
+   Name = "Shadow Anti-Aim (X)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Shadow-Dump/main/Shado%20aa%20(x)'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Underground Anti-Aim (V)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/Shadow-Dump/main/anti%20aim%20(v)'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Raycode Aim-Viewer",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/new-yuh/main/Code'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Section = Tab:CreateSection("Anti-Exploit")
+local Button = Tab:CreateButton({
+   Name = "Anti-Fling + Anti-Bag",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/lsx%20anti'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Anti-Mod (Kicks When Mod Joins)",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/new-yuh/main/Anti-Mod'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Tab = Window:CreateTab("Misc", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Useful")
+local Button = Tab:CreateButton({
+   Name = "Headless",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Headless'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Korblox",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/chromosphere/main/Korblox'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FPS Boost",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/silent-aim-cam-macro/main/FPS%20Boost'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "God Mode",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/silent-aim-cam-macro/main/full-god'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Free Animation-Pack",
+   Callback = function()loadstring(game:HttpGet('https://raw.githubusercontent.com/L0SIX/silent-aim-cam-macro/main/Animation%20Pack'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+local Tab = Window:CreateTab("Info", 4483362458) -- Title, Image
+local Paragraph = Tab:CreateParagraph({Title = "Best ways to use", Content = "For DaHood aimlocking, we recommend you use ShadowLaze, but if your competitive you can use the tenaki camlock and a streamable silent (you wont get caught) For Hood Customes, we recommend you use a tenaki camlock and a silent. (SHADOW LAZE AND PLAYER LOCK MAY NOT WORK IN HOOD CUSTOMES, HOOD MODDED ETC. If you have any questions, or got the script with out paying please contact use in our discord server."})
