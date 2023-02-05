@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 -- Create Aim Window
-local Tab = Window:CreateTab("Aim", 5314810647) -- Title, Image
+local Tab = Window:CreateTab("Aim", 8709610734) -- Title, Image
 local Section = Tab:CreateSection("Aimlocks")
 local Button = Tab:CreateButton({
    Name = "Shadow Laze (E)",
@@ -81,7 +81,7 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
-local Tab = Window:CreateTab("Anti-Stuff", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Anti-Stuff", 5314810647) -- Title, Image
 local Section = Tab:CreateSection("Anti-Lock's")
 local Button = Tab:CreateButton({
    Name = "Shadow Anti-Aim (X)",
