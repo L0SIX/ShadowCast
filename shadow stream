@@ -4,7 +4,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/idHN49At", true))()
 getgenv().Aiming.FOV = 35
 getgenv().Aiming.FOVSides = 360
 getgenv().Aiming.HitChance = 97
-getgenv().Aiming.ShowFOV = true
+getgenv().Aiming.ShowFOV = false
 DahoodSettings.Prediction = 0.11
 cframeSpheedhotkeyXd1 = "=" --toggle
 
