@@ -1,5 +1,5 @@
 BulletTracers = true
-bullet_tracer_color = Color3.fromRGB(0, 0, 0)
+bullet_tracer_color = Color3.fromRGB(255, 0, 0)
 ---------------------------------------------------------------------------------------------------------------------------
 
 function GetGun()
